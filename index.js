@@ -20,7 +20,7 @@ const port = process.env.PORT || 4000;
 // ⭐ Enable CORS for Clerk Session
 app.use(
   cors({
-    origin: "http://localhost:5173", // change in production
+    origin: "https://event-frontend-mocha-phi.vercel.app/", // change in production
     credentials: true,
   })
 );
